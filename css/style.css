@@ -97,3 +97,10 @@ body {
   font-weight: 700;
   display: block;
 }
+.downloads-button:hover {
+  background-color: #ffffff;
+  color: #5e42b0;
+}
+.downloads-button:hover .downloads-button__apple, .downloads-button:hover .downloads-button__google {
+  fill: #5e42b0;
+}
