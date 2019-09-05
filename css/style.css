@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+}
+.header {
+}
+.header-wrapper {
+  /*ниже спасаем провал вниз контенера  */
+  display: flex;
+  /* border: 2px solid red; */
+  height: 568px;
+  /* background: olive url(../images/football_767.jpg) no-repeat 0 0 / auto auto; */
+  background-image: url(../images/football_767.jpg);
+  background-repeat: no-repeat;
+  background-position: -60px -24px;
+  /*!!! вырезать картинку нужно под экран 320зчж  */
+  background-size: cover;
+
+  /* padding: 10px 0 0 0; */
+}
+.header-container {
+  height: 100%;
+  width: 100%;
+  /* min-height: 100%; */
+  background-color: rgba(25, 29, 62, 0.88);
+}
+.logo-container {
+  margin-top: 32px;
+  text-align: center;
+}
+.logo {
+  height: 40px;
+  width: 135px;
+  fill: #ffffff;
+}
+
+
+
+
+
+.title {
+  display: flex;
+  flex-direction: column;
+  padding: 0 6.25vw;
+  /* 0.0755vw    0.1vw */
+  /* padding: 0 20px; */
+}
+.title__item {
+  width: 86%;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 28px;
+  color: #ffffff;
+}
+.title__item:nth-child(2) {
+  text-align: end;
+  align-self: flex-end;
+}
+
+.downloads {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.downloads-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 35px;
+  background-color: #5e42b0;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 20px;
+  margin: 7px 16px;
+}
+.downloads-button__apple {
+  height: 24px;
+  fill: #ffffff;
+  margin: 9px;
+}
+.downloads-button__google {
+  height: 24px;
+  fill: #ffffff;
+  margin: 9px;
+}
+.downloads-button__text {
+  width: 80px;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 8px;
+}
+.downloads-button__text_bold {
+  font-weight: 700;
+  display: block;
+}
