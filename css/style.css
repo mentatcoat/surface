@@ -104,3 +104,81 @@ body {
 .downloads-button:hover .downloads-button__apple, .downloads-button:hover .downloads-button__google {
   fill: #5e42b0;
 }
+
+/*  ************* */
+
+
+.athlets-header {
+  font-family: Open Sans;
+  font-size: 50px;
+  font-weight: 700;
+  color: #e7e7e7;
+}
+.athlets-point {
+  padding: 60px 20px 55px;
+}
+.athlets-point__title {
+  position: relative;
+  font-family: Open Sans;
+  font-size: 23px;
+  font-weight: 700;
+  color: #c1c1c1;
+  margin-left: 25px;
+}
+.athlets-point__title_connection::before {
+  content: "01";
+  width: 15px;
+  height: 20px;
+  position: absolute;
+  top: 3px;
+  left: -25px;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+  border-bottom: 4px solid #5e42b0;
+}
+.athlets-point__text {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+}
+.athlets-point__text_white {
+  color: #ffffff;
+}
+.athlets-point__title_collaboration::before {
+  content: "02";
+  width: 15px;
+  height: 20px;
+  position: absolute;
+  top: 3px;
+  left: -25px;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+  border-bottom: 4px solid #5e42b0;
+}
+.athlets-point__title_growth::before {
+  content: "03";
+  width: 15px;
+  height: 20px;
+  position: absolute;
+  top: 3px;
+  left: -25px;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+  border-bottom: 4px solid #ffffff;
+}
+.athlets-point:nth-of-type(1) {
+  background-color: #fafafa;
+}
+.athlets-point:nth-of-type(2) {
+  background-color: #f5f4f9;
+}
+.athlets-point:nth-of-type(3) {
+  background-color: #5e42b0;
+}
