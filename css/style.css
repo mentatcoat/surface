@@ -135,10 +135,6 @@ body {
   left: 50px;
 }
 
-
-
-
-
 .athlets-point {
   padding: 60px 20px 55px;
 
@@ -218,4 +214,117 @@ body {
 }
 .athlets-container:nth-of-type(3) {
   background-color: #5e42b0;
+}
+
+/*??? 1) Вот ниже нужно сделать стили для блока PLAYERS который сильно повторяет предыдущий блок ATHLETS. Разумно ли использовать часть стилей начинающихся со слова "athlets-" чтобы не копипастить, при этом понимая,что в блоке PLAYERS будут чужеродные названия классов?
+2) Или нужно верстать семантически и называть каждый блок по своему? А сливать классы в один повторяющийся компонент уже на стадии программирования компонентов на реакте?   */
+/*  ******  */
+
+.players-wrapper {
+  position: relative;
+}
+
+.players-header {
+  font-family: Open Sans;
+  font-size: 50px;
+  font-weight: 700;
+  color: #e7e7e7;
+
+  padding-left: 20px;
+  /*for 768  */
+  /* padding-left: 37%; */
+
+  margin-top: 0.5em;
+  margin-bottom: 4.5em;
+}
+
+.players-picture-container {
+
+}
+
+.players-picture {
+  position: absolute;
+  top: 75px;
+  left: 0;
+}
+
+.players-point {
+  padding: 60px 20px 55px;
+
+  /*for 768  */
+  /* padding-left: 37%; */
+}
+.players-point__title {
+  position: relative;
+  font-family: Open Sans;
+  font-size: 23px;
+  font-weight: 700;
+  color: #c1c1c1;
+  margin-left: 25px;
+}
+.players-point__title_connection::before {
+  content: "01";
+  width: 15px;
+  height: 20px;
+  position: absolute;
+  top: 3px;
+  left: -25px;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+  border-bottom: 4px solid #5e42b0;
+}
+.players-point__text {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+}
+.players-point__text_white {
+  color: #ffffff;
+}
+.players-point__title_collaboration::before {
+  content: "02";
+  width: 15px;
+  height: 20px;
+  position: absolute;
+  top: 3px;
+  left: -25px;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+  border-bottom: 4px solid #5e42b0;
+}
+.players-point__title_growth::before {
+  content: "03";
+  width: 15px;
+  height: 20px;
+  position: absolute;
+  top: 3px;
+  left: -25px;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 14px;
+  color: #8765dd;
+  border-bottom: 4px solid #ffffff;
+}
+/* .athlets-point:nth-of-type(1) {
+  background-color: #fafafa;
+}
+.athlets-point:nth-of-type(2) {
+  background-color: #f5f4f9;
+}
+.athlets-point:nth-of-type(3) {
+  background-color: #5e42b0;
+} */
+.players-container:nth-of-type(1) {
+  background-color: #fafafa;
+}
+.players-container:nth-of-type(2) {
+  background-color: #f5f4f9;
+}
+.players-container:nth-of-type(3) {
+  background-color: #090c35;
 }
