@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
+/*??? Дайте критику названиям классов. Возможно они примитивны и не очень семантичны.   */
+
+
 body {
   padding: 0;
   margin: 0;
@@ -327,4 +330,74 @@ body {
 }
 .players-container:nth-of-type(3) {
   background-color: #090c35;
+}
+
+/* section.features : */
+
+.features-wrapper {
+}
+.feature {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 0 80px;
+}
+.feature__picture {
+  width: 100%;
+}
+.feature__number-box {
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  height: 70px;
+  width: 70px;
+  background-color: #5e42b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feature__number {
+  width: 15px;
+  height: 20px;
+  /* position: absolute; */
+  /* top: 29%; */
+  /* left: 40%; */
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  border-bottom: 4px solid #8f7bc8;
+
+}
+
+/* .feature__number-box::before {
+  content: "01";
+  width: 15px;
+  height: 20px;
+  position: absolute;
+  top: 29%;
+  left: 40%;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  border-bottom: 4px solid #8f7bc8;
+} */
+.feature__description {
+  padding: 0 20px;
+
+}
+.feature__title {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 28px;
+  color: #e7e7e7;
+  margin: 34px 0 24px;
+}
+.feature__text {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
 }
