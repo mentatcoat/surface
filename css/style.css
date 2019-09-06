@@ -401,3 +401,79 @@ body {
   font-size: 16px;
   color: #000000;
 }
+
+/*  ********** */
+/* footer: */
+
+.footer-wrapper {
+  /*ниже спасаем провал вниз контенера  */
+  display: flex;
+  /* border: 2px solid red; */
+  height: 568px;
+  /* background: olive url(../images/football_767.jpg) no-repeat 0 0 / auto auto; */
+  /* background-image: url(../images/football_767.jpg); */
+  /* #171c3c  */
+  background: #171c3c url(../images/game_767.jpg) no-repeat 0 0 / 0 0 ;
+  background-repeat: no-repeat;
+  background-position: -60px -24px;
+  /*!!! вырезать картинку нужно под экран 320зчж  */
+  background-size: cover;
+
+  /* padding: 10px 0 0 0; */
+}
+.footer-container {
+  height: 100%;
+  width: 100%;
+  /* min-height: 100%; */
+  background-color: rgba(25, 29, 62, 0.88);
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 74px;
+  height: 74px;
+  background: linear-gradient(to top, #50379a, #7655d6);
+  margin-top: 32px;
+  text-align: center;
+  border-radius: 15px;
+
+}
+
+.footer-logo {
+  height: 40px;
+  width: 135px;
+  fill: #ffffff;
+}
+
+.footer-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 6.25vw;
+  /* 0.0755vw    0.1vw */
+  /* padding: 0 20px; */
+}
+.footer-title__item {
+  /* width: 86%; */
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 32px;
+  color: #ffffff;
+}
+.footer-title__item:nth-child(2) {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 14px;
+  color: #9b8ec1;
+  /* text-align: end; */
+  /* align-self: flex-end; */
+}
