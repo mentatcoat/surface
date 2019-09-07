@@ -17,10 +17,10 @@ body {
   /* background: olive url(../images/football_767.jpg) no-repeat 0 0 / auto auto; */
   background-image: url(../images/football_767.jpg);
   background-repeat: no-repeat;
-  background-position: -60px -24px;
-  /*!!! вырезать картинку нужно под экран 320зчж  */
-  background-size: cover;
 
+  /*!!! вырезать картинку нужно под экран 320зчж  */
+  background-position: -67px -24px;
+  background-size: 141% auto;
   /* padding: 10px 0 0 0; */
 }
 .header-container {
@@ -44,22 +44,23 @@ body {
 
 
 .title {
-  display: flex;
-  flex-direction: column;
-  padding: 0 6.25vw;
-  /* 0.0755vw    0.1vw */
-  /* padding: 0 20px; */
+    display: flex;
+    flex-direction: column;
+    padding: 38% 5.25% 23.5%;
+    /* padding: 0 20px; */
+    margin: 0;
 }
 .title__item {
-  width: 86%;
-  font-family: Open Sans;
-  font-weight: bold;
-  font-size: 28px;
-  color: #ffffff;
+    width: 84%;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 124%;
+    letter-spacing: 1.45px;
+    color: #ffffff;
 }
 .title__item:nth-child(2) {
-  text-align: end;
-  align-self: flex-end;
+    margin: 6% 0 0 auto;
 }
 
 .downloads {
@@ -70,7 +71,7 @@ body {
 }
 .downloads-button {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   width: 280px;
   height: 35px;
@@ -81,20 +82,23 @@ body {
   margin: 7px 16px;
 }
 .downloads-button__apple {
-  height: 24px;
-  fill: #ffffff;
-  margin: 9px;
+    height: 24px;
+    fill: #ffffff;
+    /* margin: 9px; */
+    padding: 0 7px 5px 80px;
 }
 .downloads-button__google {
-  height: 24px;
-  fill: #ffffff;
-  margin: 9px;
+    height: 24px;
+    fill: #ffffff;
+    /* margin: 9px; */
+    padding: 0px 6px 0 81px;
 }
 .downloads-button__text {
   width: 80px;
   font-family: Open Sans;
   font-weight: 400;
   font-size: 8px;
+  margin-right: 16px;
 }
 .downloads-button__text_bold {
   font-weight: 700;
