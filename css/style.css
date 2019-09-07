@@ -13,7 +13,7 @@ body {
   /*ниже спасаем провал вниз контенера  */
   display: flex;
   /* border: 2px solid red; */
-  height: 568px;
+  /* height: 568px; */
   /* background: olive url(../images/football_767.jpg) no-repeat 0 0 / auto auto; */
   background-image: url(../images/football_767.jpg);
   background-repeat: no-repeat;
@@ -24,18 +24,19 @@ body {
   /* padding: 10px 0 0 0; */
 }
 .header-container {
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   /* min-height: 100%; */
   background-color: rgba(25, 29, 62, 0.88);
+  padding-bottom: 22%;
 }
 .logo-container {
   margin-top: 32px;
   text-align: center;
 }
 .logo {
-  height: 40px;
-  width: 135px;
+  height: 11.25vw;
+  width: 41.25vw;
   fill: #ffffff;
 }
 
@@ -46,7 +47,8 @@ body {
 .title {
     display: flex;
     flex-direction: column;
-    padding: 38% 5.25% 23.5%;
+    /* padding: 38% 5.25% 23.5%; */
+    padding: 39% 5.25% 26%;
     /* padding: 0 20px; */
     margin: 0;
 }
@@ -54,7 +56,8 @@ body {
     width: 84%;
     font-family: Open Sans;
     font-weight: bold;
-    font-size: 28px;
+    /* font-size: 28px; */
+    font-size: 8.75vw;
     line-height: 124%;
     letter-spacing: 1.45px;
     color: #ffffff;
@@ -71,33 +74,44 @@ body {
 }
 .downloads-button {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
-  width: 280px;
-  height: 35px;
+  /* width: 280px;
+  height: 35px; */
+  width: 87.5vw;
+  height: 10.9vw;
   background-color: #5e42b0;
   text-decoration: none;
   color: #ffffff;
   border-radius: 20px;
-  margin: 7px 16px;
+  /* margin: 7px 16px; */
+  margin-bottom: 4.4vw;
+}
+.downloads-button__content {
+  /* width: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .downloads-button__apple {
-    height: 24px;
-    fill: #ffffff;
-    /* margin: 9px; */
-    padding: 0 7px 5px 80px;
+  /* height: 24px; */
+  height: 7.5vw;
+  fill: #ffffff;
+  /* margin: 9px; */
+  padding: 0 8px 6px 7px;
 }
 .downloads-button__google {
-    height: 24px;
+    /* height: 24px; */
+    height: 8vw;
     fill: #ffffff;
     /* margin: 9px; */
-    padding: 0px 6px 0 81px;
+    padding: 0 6px 0px 8px;
 }
 .downloads-button__text {
-  width: 80px;
+  width: 25vw;
   font-family: Open Sans;
   font-weight: 400;
-  font-size: 8px;
+  font-size: 2.5vw;
   margin-right: 16px;
 }
 .downloads-button__text_bold {
