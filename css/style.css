@@ -52,8 +52,9 @@ body {
     /* padding: 0 20px; */
     margin: 0;
 }
+/*??? Ниже в правиле я использую единицы vw в свойстве font-size - правильно ли таким образом задавать резиновые шрифты? Кроме vw по другому ведь никак не сделать шрифты резиновыми в пограничных положениях? И нужно ли вообще делать резиновые шрифты до брейкпоинта 641 px?  */
 .title__item {
-    width: 84%;
+    width: 85%;
     font-family: Open Sans;
     font-weight: bold;
     /* font-size: 28px; */
@@ -494,4 +495,89 @@ body {
   color: #9b8ec1;
   /* text-align: end; */
   /* align-self: flex-end; */
+}
+
+/*??? Я поймал себя за процессом подгонки пикселей,сижу долго подстраиваю адаптивные правила под макет - насколько в продакшене нужен этот Пиксель Перфект,и как это отслеживает работодатель?  */
+
+/* *******  */
+/* *******  */
+/* *******  */
+/* *******  */
+/* *******  */
+/* *******  */
+/* *******  */
+/* *******  */
+/* *******  */
+/*  MEDIA FUNCTIONS   */
+
+@media (min-width: 641px) and (max-width: 960px) {
+
+/*??? Это нормально что в теле медиа-запроса такая большая портянка правил? Может можно сделать по хитрому гораздо меньше?  */
+  .header-wrapper {
+    /* border: 2px solid red; */
+    /* height: 568px; */
+    /* background: olive url(../images/football_767.jpg) no-repeat 0 0 / auto auto; */
+    background-image: url(../images/football_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: -249px -40px;
+    background-size: 165% auto;
+    /* padding: 10px 0 0 0; */
+  }
+  .header-container {
+    /* background: none; */
+    padding-bottom: 7%;
+  }
+  .logo-container {
+    margin-top: 24px;
+  }
+  .logo {
+    width: 26.75vw;
+  }
+  .title {
+    padding: 18.5% 11.25% 38.5%;
+  }
+
+  .title__item {
+    line-height: 118%;
+  }
+
+  .title__item:nth-child(2) {
+      margin: 0% 0 0 18%;
+  }
+
+  .downloads {
+    flex-direction: row;
+  }
+
+  .downloads-button {
+    width: 40.5vw;
+    height: 10.2vw;
+    border-radius: 40px;
+    margin-right: 4%;
+  }
+  .downloads-button:nth-child(2) {
+    margin-right: 0;
+  }
+  .downloads-button__content {
+    /* outline: 2px solid lime; */
+    width: 33vw;
+    justify-content: flex-start;
+  }
+  .downloads-button__apple {
+    height: 6vw;
+    padding: 0 22px 6px 7px;
+  }
+  .downloads-button__google {
+    height: 6vw;
+    padding: 0 24px 0px 26px;
+  }
+  .downloads-button__text {
+    width: 19vw;
+    font-size: 1.75vw;
+    letter-spacing: 1px;
+    margin-right: 0;
+  }
+
+
+
 }
