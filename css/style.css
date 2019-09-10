@@ -469,7 +469,7 @@ body {
   }
 
   .header-container {
-    padding-bottom: 7%;
+    padding-bottom: 7.5%;
   }
 
   .logo-container {
@@ -531,13 +531,99 @@ body {
 
   /*@media for athlets   */
 
+  .athlets-header {
+      font-family: "Open Sans";
+      font-size: 10vw;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: #e7e7e7;
+      /* padding-left: 20px; */
+    padding: 7.9% 6.5% 0 38%;
+      /* margin-top: 0.5em; */
+      /* margin-bottom: 4.5em; */
+      margin: 0;
+  }
 
+  .athlets-picture {
+      width: 64.5%;
+      top: 12.6%;
+      left: -21%;
+  }
 
+  .athlets-point {
+      padding: 4% 5% 4.5% 38%;
+  }
 
+  .athlets-point_connection {
+      /* padding: 16.5% 6% 16%; */
+  }
 
+  .athlets-point_growth {
+    padding: 4% 3% 4.5% 38%;
+  }
 
+  .athlets-point__title_connection::before {
+    content: "01";
+    width: 2.5vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 4%;
+    left: -8.3%;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 2.3vw;
+    color: #000000;
+    border-bottom: 4px solid #5e42b0;
+  }
 
+  .athlets-point__title_collaboration::before {
+    content: "02";
+    width: 2.5vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 4%;
+    left: -8.3%;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 2.3vw;
+    color: #000000;
+    border-bottom: 4px solid #5e42b0;
+  }
 
+  .athlets-point__title_growth::before {
+    content: "03";
+    width: 2.5vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 4%;
+    left: -8.3%;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 2.3vw;
+    color: #000000;
+    border-bottom: 4px solid #ffffff;
+  }
+
+  .athlets-point__title {
+    position: relative;
+    font-family: "Open Sans";
+    font-size: 4.2vw;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #c1c1c1;
+    margin: 0.0% 9% 3.5% 7%;
+    /* margin: 0; */
+  }
+
+  .athlets-point__text {
+      font-family: "Open Sans";
+      font-size: 2.1vw;
+      font-weight: 400;
+      letter-spacing: 0.8px;
+      line-height: 1.7em;
+      /* color: #000000; */
+      margin: 0;
+  }
 
 
   /*@media for players   */
