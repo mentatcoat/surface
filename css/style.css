@@ -134,7 +134,7 @@ body {
 
 .athlets-picture {
     position: absolute;
-    width: 60%;
+    width: 62%;
     top: 8%;
     left: calc(52% - 96px);
 }
@@ -529,7 +529,7 @@ body {
     margin-right: 0;
   }
 
-  /*@media for athlets   */
+  /*@media for athlets to 960px  */
 
   .athlets-header {
       font-family: "Open Sans";
@@ -742,4 +742,118 @@ body {
     letter-spacing: 0;
     margin-right: 0;
   }
+
+  /* @media for athlets from 961 : */
+
+  .athlets-header {
+      font-family: "Open Sans";
+      font-size: 4vw;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: #e7e7e7;
+      /* padding-left: 20px; */
+      padding: 4.7% 6.5% 34px 52.5%;
+      /* margin-top: 0.5em; */
+      /* margin-bottom: 4.5em; */
+      margin: 0;
+  }
+
+  .athlets-picture {
+      width: 33.5%;
+      top: 3.3%;
+      left: 20.5%;
+  }
+
+  .athlets-point {
+    padding: 40px 12% 60px 52.5%;
+  }
+
+  .athlets-point_connection {
+      padding: 2.1% 12% 2.8% 52.5%;
+  }
+
+  .athlets-point_collaboration {
+      padding: 2.5% 12% 2.9% 52.5%;
+  }
+
+  .athlets-point_growth {
+    padding: 2.3% 11% 2.9% 52.5%;
+  }
+
+  .athlets-point__title_connection::before {
+      content: "01";
+      width: 1vw;
+      height: 1.45vw;
+      position: absolute;
+      top: 11%;
+      left: -4.5%;
+      font-family: "Open Sans";
+      font-weight: 700;
+      font-size: 1vw;
+      color: #000000;
+      border-bottom: 0.2em solid #5e42b0;
+  }
+
+  .athlets-point__title_collaboration::before {
+    content: "02";
+    width: 1vw;
+    height: 1.45vw;
+    position: absolute;
+    top: 11%;
+    left: -4.5%;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 1vw;
+    color: #000000;
+    border-bottom: 0.2em solid #5e42b0;
+  }
+
+  .athlets-point__title_growth::before {
+    content: "03";
+    width: 1vw;
+    height: 1.45vw;
+    position: absolute;
+    top: 11%;
+    left: -4.5%;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 1vw;
+    color: #000000;
+    border-bottom: 0.2em solid #ffffff;
+  }
+
+  .athlets-point__title {
+      position: relative;
+      font-family: "Open Sans";
+      font-size: 2vw;
+      font-weight: 700;
+      letter-spacing: 0;
+      color: #c1c1c1;
+      margin: 0.0% 9% 2% 4%;
+      /* margin: 0; */
+  }
+
+  .athlets-point__text {
+    font-family: "Open Sans";
+    font-size: 1vw;
+    font-weight: 400;
+    letter-spacing: 0.027em;
+    line-height: 1.45em;
+    /* color: #000000; */
+    margin: 0;
+  }
+
+  .athlets-point__text_white {
+    /* color: #ffffff; */
+    letter-spacing: 0.04em;
+  }
+
+
+  /*@media for players  */
+
+
+
+
+
+
 }
