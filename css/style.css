@@ -722,6 +722,9 @@ body {
       top: 5.3%;
       left: 43%;
   }
+  .athlets-container:nth-of-type(1) {
+    background-color: #ffffff;
+  }
   .athlets-point_connection_players {
       padding: 4% 44% 4.7% 4%;
   }
@@ -825,6 +828,7 @@ body {
 
 @media (min-width: 961px) {
 
+/*!!!:  */
 /* testing  */
   body {
     width: 1920px;
@@ -1023,12 +1027,122 @@ body {
     letter-spacing: 0.04em;
   }
 
+/*??? Пытаюсь изначально придымувать общий класс для карточек. Но все равно выясняется что везде нужно подгонять миллиметры. Этот макет специально сделан так что нужно плодить на каждую карточку отдельный класс? Или я что то неправильно делаю?  */
 
-  /*@media for players  */
+  /*@media for players from 961  */
+
+  .athlets-header_players {
+      padding: 4.8% 3.5% 0% 9.6%;
+  }
+  .athlets-picture_players {
+      position: absolute;
+      width: 51.5%;
+      top: 2.9%;
+      left: 41.9%;
+  }
+  .athlets-container:nth-of-type(1) {
+    background-color: #ffffff;
+  }
+  .athlets-point_connection_players {
+      padding: 3.3% 50% 2.8% 10%;
+  }
+  .athlets-point_collaboration_players {
+      padding: 1.8% 50% 4.3% 10%;
+  }
+  .athlets-point_growth_players {
+      padding: 1.8% 50% 2.9% 10%;
+  }
+  .athlets-point__title_connection_players {
+      position: relative;
+      font-family: "Open Sans";
+      font-size: 2.0vw;
+      font-weight: 700;
+      letter-spacing: 0px;
+      color: #c1c1c1;
+      margin: 1.5% 9% 2.0% 3.6%;
+      /* margin: 0; */
+  }
+  .athlets-point__title_connection_players::before {
+      content: "01";
+      width: 1vw;
+      height: 1.5vw;
+      position: absolute;
+      top: 0.3vw;
+      left: -1.5vw;
+      font-family: "Open Sans";
+      font-weight: 700;
+      font-size: 1.0vw;
+      color: #000000;
+      border-bottom: 4px solid #5e42b0;
+  }
+  .athlets-point__title_collaboration_players {
+      position: relative;
+      font-family: "Open Sans";
+      font-size: 2.0vw;
+      font-weight: 700;
+      letter-spacing: 0px;
+      color: #c1c1c1;
+      margin: 1.5% 9% 3.2% 4%;
+      /* margin: 0; */
+  }
+  .athlets-point__title_collaboration_players::before {
+      content: "02";
+      width: 1vw;
+      height: 1.5vw;
+      position: absolute;
+      top: 0.4vw;
+      left: -1.5vw;
+      font-family: "Open Sans";
+      font-weight: 700;
+      font-size: 1.0vw;
+      color: #000000;
+      border-bottom: 4px solid #5e42b0;
+  }
+
+  .athlets-point__title_growth_players {
+      position: relative;
+      font-family: "Open Sans";
+      font-size: 2.0vw;
+      font-weight: 700;
+      letter-spacing: 0px;
+      color: #c1c1c1;
+      margin: 1.5% 9% 2.1% 4%;
+      /* margin: 0; */
+  }
+
+  .athlets-point__title_growth_players::before {
+      content: "03";
+      width: 1vw;
+      height: 1.5vw;
+      position: absolute;
+      top: 0.4vw;
+      left: -1.5vw;
+      font-family: "Open Sans";
+      font-weight: 700;
+      font-size: 1.0vw;
+      color: #8765dd;
+      border-bottom: 4px solid #ffffff;
+  }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*@media for features from 961  */
+
+  /*@media for footer from 961 */
 
 
 }
