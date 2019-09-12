@@ -2,6 +2,9 @@
 
 /*??? Дайте критику названиям классов. Возможно они примитивны и не очень семантичны. Верно ли вообще БЭМ использовался?  */
 
+
+/*??? При адаптивной верстке приходится тратить много времени на подгонку элементов под макет, особенно по принципу PixelPerfect. Есть ли более важные элементы, отображению которых Заказчик уделяет больше важности? Например размер шрифта,или картинки?  */
+
 body {
   padding: 0;
   margin: 0;
@@ -42,7 +45,7 @@ body {
 /*??? Ниже в правиле я использую единицы vw в свойстве font-size - правильно ли таким образом задавать резиновые шрифты? Кроме vw по другому ведь никак не сделать шрифты резиновыми в пограничных положениях? И нужно ли вообще делать резиновые шрифты до брейкпоинта 641 px?  */
 .title__item {
   width: 85%;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: bold;
   font-size: 8.75vw;
   line-height: 124%;
@@ -95,7 +98,7 @@ body {
 
 .downloads-button__text {
   width: 25vw;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 2.5vw;
   margin-right: 16px;
@@ -362,6 +365,34 @@ body {
   background-color: #090c35;
 }
 
+.athlets-point__title_connection_players::before {
+    content: "01";
+    width: 4.5vw;
+    height: 6.0vw;
+    position: absolute;
+    top: 1vw;
+    left: -7.5vw;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 4.3vw;
+    color: #000000;
+    border-bottom: 4px solid #5e42b0;
+}
+
+.athlets-point__title_collaboration_players::before {
+    content: "02";
+    width: 4.8vw;
+    height: 5.5vw;
+    position: absolute;
+    top: 1vw;
+    left: -7.5vw;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 4.3vw;
+    color: #000000;
+    border-bottom: 4px solid #5e42b0;
+}
+
 .athlets-point__title_growth_players::before {
   content: "03";
   width: 15px;
@@ -369,7 +400,7 @@ body {
   position: absolute;
   top: 3px;
   left: -25px;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 700;
   font-size: 14px;
   color: #8765dd;
@@ -405,7 +436,7 @@ body {
 .feature__number {
   width: 15px;
   height: 20px;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 700;
   font-size: 14px;
   color: #ffffff;
@@ -417,7 +448,7 @@ body {
 }
 
 .feature__title {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 700;
   font-size: 28px;
   color: #e7e7e7;
@@ -426,7 +457,7 @@ body {
 }
 
 .feature__text {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 16px;
   color: #000000;
@@ -483,7 +514,7 @@ body {
 }
 
 .footer-title__item {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: bold;
   font-size: 32px;
   color: #ffffff;
@@ -491,7 +522,7 @@ body {
 }
 
 .footer-title__item:nth-child(2) {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 14px;
   color: #9b8ec1;
@@ -678,7 +709,99 @@ body {
   }
 
 
-  /*@media for players   */
+  /*@media for players to 960  */
+
+/*??? Дайте критику по данному подходу: я взял стили блока athlets и применил из к блоку players, т к они почти идентичны. Далее я добавил классы-модификаторы с припиской _players к получившемуся блоку,чтобы скорректировать его отличия. Далее я эти модификаторы меняю по ходу создания адаптивной верстки для блока players.   */
+
+  .athlets-header_players {
+      padding: 7.7% 3.5% 0% 3.5%;
+  }
+  .athlets-picture_players {
+      position: absolute;
+      width: 57%;
+      top: 5.3%;
+      left: 43%;
+  }
+  .athlets-point_connection_players {
+      padding: 4% 44% 4.7% 4%;
+  }
+  .athlets-point_collaboration_players {
+    padding: 4.5% 44% 4.5% 4.0%;
+  }
+  .athlets-point_growth_players {
+      padding: 4.2% 40% 4.6% 4%;
+  }
+  .athlets-point__title_connection_players {
+      position: relative;
+      font-family: "Open Sans";
+      font-size: 4.2vw;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      color: #c1c1c1;
+      margin: 0.0% 9% 3.5% 8%;
+      /* margin: 0; */
+  }
+  .athlets-point__title_connection_players::before {
+      content: "01";
+      width: 2.5vw;
+      height: 3.5vw;
+      position: absolute;
+      top: 0.3vw;
+      left: -4vw;
+      font-family: "Open Sans";
+      font-weight: 700;
+      font-size: 2.4vw;
+      color: #000000;
+      border-bottom: 4px solid #5e42b0;
+  }
+  .athlets-point__title_collaboration_players {
+    position: relative;
+    font-family: "Open Sans";
+    font-size: 4.2vw;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #c1c1c1;
+    margin: 0.0% 9% 3.5% 8%;
+    /* margin: 0; */
+  }
+  .athlets-point__title_collaboration_players::before {
+      content: "02";
+      width: 2.5vw;
+      height: 3.5vw;
+      position: absolute;
+      top: 0.3vw;
+      left: -4vw;
+      font-family: "Open Sans";
+      font-weight: 700;
+      font-size: 2.4vw;
+      color: #000000;
+      border-bottom: 4px solid #5e42b0;
+  }
+
+  .athlets-point__title_growth_players {
+      position: relative;
+      font-family: "Open Sans";
+      font-size: 4.2vw;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      color: #c1c1c1;
+      margin: 0.0% 9% 3.5% 7.7%;
+      /* margin: 0; */
+  }
+
+  .athlets-point__title_growth_players::before {
+      content: "03";
+      width: 2.6vw;
+      height: 3.5vw;
+      position: absolute;
+      top: 0.4vw;
+      left: -4.3vw;
+      font-family: "Open Sans";
+      font-weight: 700;
+      font-size: 2.4vw;
+      color: #8765dd;
+      border-bottom: 4px solid #ffffff;
+  }
 
   /*@media for features   */
 
