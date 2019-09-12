@@ -411,56 +411,114 @@ body {
 /* section.features : */
 
 .feature {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  padding: 0 0 80px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 18.8%;
 }
 
+.feature_card_work {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 15.8% 0;
+}
+
+/*??? Ниже контейнеру пришлось сделать display:flex , т к без флекса контейнер почемуто больше вложенного элемента img. Нормально решать такую проблему флексом? Почему возникает такая проблема?  */
+.feature__picture-container {
+  display: flex;
+}
 .feature__picture {
   width: 100%;
 }
 
 .feature__number-box {
-  position: absolute;
-  top: 50%;
-  left: 7%;
-  height: 70px;
-  width: 70px;
-  background-color: #5e42b0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    position: absolute;
+    top: -37.9%;
+    left: 6.2%;
+    height: 22vw;
+        width: 22vw;
+    background-color: #5e42b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature__number-box_card_find {
+    position: absolute;
+    top: -42.9%;
+    left: 6.2%;
+    height: 22vw;
+        width: 22vw;
+    background-color: #5e42b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature__number-box_card_work {
+    position: absolute;
+    top: -33.9%;
+    left: 6.2%;
+    height: 22vw;
+        width: 22vw;
+    background-color: #5e42b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .feature__number {
-  width: 15px;
-  height: 20px;
-  font-family: "Open Sans";
-  font-weight: 700;
-  font-size: 14px;
-  color: #ffffff;
-  border-bottom: 4px solid #8f7bc8;
+    width: 21%;
+    height: 29%;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 4.2vw;
+    color: #ffffff;
+    border-bottom: 0.3em solid #8f7bc8;
 }
 
 .feature__description {
-  padding: 0 20px;
+  position: relative;
+    padding: 0 22% 0 6%;
+}
+
+.feature__description_card_be {
+    padding: 0 6% 0 6%;
+}
+
+.feature__description_card_work {
+    position: relative;
+    padding: 0 5% 0 6%;
 }
 
 .feature__title {
-  font-family: "Open Sans";
-  font-weight: 700;
-  font-size: 28px;
-  color: #e7e7e7;
-  text-transform: uppercase;
-  margin: 34px 0 24px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 9vw;
+    color: #e7e7e7;
+    text-transform: uppercase;
+    margin: 11% 0 -2% 0%;
 }
 
+.feature__title_card_work {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 9vw;
+    color: #e7e7e7;
+    text-transform: uppercase;
+    margin: 9.5% 0 -2% 0%;
+}
+
+
+
 .feature__text {
-  font-family: "Open Sans";
-  font-weight: 400;
-  font-size: 16px;
-  color: #000000;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 4.7vw;
+    letter-spacing: 0.09em;
+    line-height: 1.39em;
+    color: #000000;
 }
 
 /*  ********** */
