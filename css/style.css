@@ -48,6 +48,7 @@ body {
   line-height: 124%;
   letter-spacing: 1.45px;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 .title__item:nth-child(2) {
@@ -98,6 +99,7 @@ body {
   font-weight: 400;
   font-size: 2.5vw;
   margin-right: 16px;
+  text-transform: uppercase;
 }
 
 .downloads-button__text_bold {
@@ -125,6 +127,7 @@ body {
     font-size: 15.6vw;
     font-weight: 700;
     color: #e7e7e7;
+    text-transform: uppercase;
     /* padding-left: 20px; */
     padding: 2% 6.5% 72%;
     /* margin-top: 0.5em; */
@@ -134,7 +137,7 @@ body {
 
 .athlets-picture {
     position: absolute;
-    width: 62%;
+    width: 60%;
     top: 8%;
     left: calc(52% - 96px);
 }
@@ -153,6 +156,7 @@ body {
     font-size: 7.2vw;
     font-weight: 700;
     letter-spacing: 1px;
+    text-transform: uppercase;
     color: #c1c1c1;
     margin: 8.5% 9% 19px;
 }
@@ -237,6 +241,7 @@ body {
   font-family: Open Sans;
   font-size: 50px;
   font-weight: 700;
+  text-transform: uppercase;
   color: #e7e7e7;
   padding-left: 20px;
   margin-top: 0.5em;
@@ -259,6 +264,7 @@ body {
   font-size: 23px;
   font-weight: 700;
   color: #c1c1c1;
+  text-transform: uppercase;
   margin-left: 25px;
 }
 
@@ -371,6 +377,7 @@ body {
   font-weight: 700;
   font-size: 28px;
   color: #e7e7e7;
+  text-transform: uppercase;
   margin: 34px 0 24px;
 }
 
@@ -436,6 +443,7 @@ body {
   font-weight: bold;
   font-size: 32px;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 .footer-title__item:nth-child(2) {
@@ -759,9 +767,9 @@ body {
   }
 
   .athlets-picture {
-      width: 33.5%;
+      width: 29.5%;
       top: 3.3%;
-      left: 20.5%;
+      left: 20.4%;
   }
 
   .athlets-point {
