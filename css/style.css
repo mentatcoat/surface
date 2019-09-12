@@ -233,7 +233,7 @@ body {
 2) Или нужно верстать семантически и называть каждый блок по своему? А сливать классы в один повторяющийся компонент уже на стадии программирования компонентов на реакте?   */
 /*  ******  */
 
-.players-wrapper {
+/* .players-wrapper {
   position: relative;
 }
 
@@ -331,7 +331,51 @@ body {
 
 .players-container:nth-of-type(3) {
   background-color: #090c35;
+} */
+
+/* корректирующие модификаторы для блока-клона players:  */
+
+.athlets-header_players {
+    padding: 1% 4.5% 72.5%;
 }
+
+.athlets-picture_players {
+    position: absolute;
+    width: 94%;
+    top: 8.6%;
+    left: calc(50% - 151px);
+}
+
+.athlets-point_connection_players {
+    padding: 16% 6% 17.5%;
+}
+
+.athlets-point_collaboration_players {
+    padding: 9% 6% 16.5%;
+}
+
+.athlets-point_growth_players {
+    padding: 8% 6% 17%;
+}
+
+.athlets-container.athlets-container_growth_players {
+  background-color: #090c35;
+}
+
+.athlets-point__title_growth_players::before {
+  content: "03";
+  width: 15px;
+  height: 20px;
+  position: absolute;
+  top: 3px;
+  left: -25px;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 14px;
+  color: #8765dd;
+  border-bottom: 4px solid #ffffff;
+}
+
 
 /* section.features : */
 
