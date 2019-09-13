@@ -395,14 +395,14 @@ body {
 
 .athlets-point__title_growth_players::before {
   content: "03";
-  width: 15px;
-  height: 20px;
+  width: 4.8vw;
+  height: 5.5vw;
   position: absolute;
-  top: 3px;
-  left: -25px;
+  top: 1vw;
+  left: -7.5vw;
   font-family: "Open Sans";
   font-weight: 700;
-  font-size: 14px;
+  font-size: 4.3vw;
   color: #8765dd;
   border-bottom: 4px solid #ffffff;
 }
@@ -589,6 +589,8 @@ body {
   font-size: 14px;
   color: #9b8ec1;
 }
+
+/*??? Предполагаю, что есть инструмент фильтрующий не используемые css-правила - может подскажете? */
 
 /*??? Я поймал себя за процессом подгонки пикселей,сижу долго подстраиваю адаптивные правила под макет - насколько в продакшене нужен этот Пиксель Перфект,и как это отслеживает работодатель?  */
 
@@ -1296,6 +1298,7 @@ body {
     top: 0%;
     left: -0.0%;
   }
+  /*??? Картинка первой карточки этого блока нуждается в подгонке, чтобы выглядеть как на макете. Мне нужно было ее вырезать? Адекватно ли использовать подход ниже? :  */
   .feature__picture_card_be {
       position: absolute;
       transform: scale(1.31);
