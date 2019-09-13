@@ -586,10 +586,10 @@ body {
 }
 
 .footer-title__item:nth-child(2) {
-  font-family: "Open Sans";
-  font-weight: 400;
-  font-size: 14px;
-  color: #9b8ec1;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 4.45vw;
+    color: #9b8ec1;
 }
 
 .footer-logo-container {
@@ -964,6 +964,57 @@ body {
         margin: 3.5% 0 0 0.5%;
   }
 
+  /*@media for footer to 960px  */
+
+  .footer-wrapper {
+      display: flex;
+      /* height: 568px; */
+      background: #171c3c url(../images/game_767.jpg) no-repeat 0 0 / 0 0;
+      background-repeat: no-repeat;
+      background-position: 40% 37%;
+      background-size: 101% 102%;
+  }
+
+  .footer-top {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 12.2% 0 34% 0;
+  }
+
+  .box-logo-container {
+      width: 17vw;
+      height: 18vw;
+      border-radius: 28px;
+  }
+  .box-logo {
+      height: 11vw;
+      width: 14vw;
+  }
+
+  .footer-title {
+      padding: 4.5% 0.25% 0 0%;
+  }
+
+  .footer-title__item {
+    letter-spacing: 0.08em;
+  }
+
+  .footer-title__item:nth-child(2) {
+    font-size: 4.5vw;
+    line-height: 1.2em;
+    letter-spacing: 0.026em;
+  }
+
+  .footer-logo-container {
+      margin: 2% 0 2.2% 0;
+  }
+
+  .footer-logo {
+      height: 8.25vw;
+      width: 27.25vw;
+  }
 
 
 
@@ -971,7 +1022,11 @@ body {
 
 
 
-  /*@media for footer   */
+
+
+
+
+
 
 }
 
