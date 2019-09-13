@@ -483,12 +483,16 @@ body {
     padding: 0 22% 0 6%;
 }
 
-.feature__description_card_be {
+
+/* .feature__description_card_be {
     padding: 0 6% 0 6%;
+} */
+
+.feature__description_card_find {
+    padding: 0 5% 0 6%;
 }
 
 .feature__description_card_work {
-    position: relative;
     padding: 0 5% 0 6%;
 }
 
@@ -1266,22 +1270,107 @@ body {
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /*@media for features from 961  */
+
+  .feature_card_be {
+      flex-direction: row;
+      padding: 0 0 0 0;
+  }
+  .feature_card_find {
+    flex-direction: row-reverse;
+    padding: 0;
+  }
+  .feature_card_work {
+    flex-direction: row;
+    padding: 0 0 0 0;
+  }
+  .feature__picture-container {
+      position: relative;
+      overflow: hidden;
+      width: 50%;
+      height: 38vw;
+      box-sizing: border-box;
+  }
+  .feature__picture {
+    transform: scale(1.00);
+    top: 0%;
+    left: -0.0%;
+  }
+  .feature__picture_card_be {
+      position: absolute;
+      transform: scale(1.31);
+      top: 12%;
+      left: -8.5%;
+  }
+  .feature__description {
+      box-sizing: border-box;
+      width: 50%;
+      padding: 0 11% 0 6.5%;
+  }
+  .feature__description_card_be {
+    padding: 0 5% 0 10%;
+  }
+  .feature__description_card_find {
+    padding: 0 5% 0 10.0%;
+  }
+  .feature__description_card_work {
+    padding: 0 9% 0 6.5%;
+  }
+  .feature__number-box {
+      top: 28.6%;
+      left: -8.7%;
+      height: 8vw;
+      width: 8.7vw;
+  }
+  .feature__number-box_card_find {
+      top: 29.2%;
+      left: 91.3%;
+      height: 8vw;
+      width: 8.7vw;
+  }
+  .feature__number {
+    width: 14%;
+    height: 22%;
+    font-size: 1.2vw;
+  }
+  .feature__title {
+      font-size: 80px;
+      line-height: 60px;
+      margin: 41.5% 0 0 0%;
+  }
+  .feature__title_card_find {
+    margin: 38.5% 0 0 -1%;
+  }
+  .feature__title_card_work {
+    margin: 38.5% 0 0 0%;
+  }
+  .feature__text {
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0.056em;
+      margin: 18% 0 0 0;
+  }
+  .feature__text_card_find {
+      letter-spacing: 0.05em;
+      margin: 11% 0 0 0;
+  }
+  .feature__text_card_work {
+    margin: 16.5% 0 0 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /*@media for footer from 961 */
 
