@@ -529,12 +529,12 @@ body {
 /* footer: */
 
 .footer-wrapper {
-  display: flex;
-  height: 568px;
-  background: #171c3c url(../images/game_767.jpg) no-repeat 0 0 / 0 0 ;
-  background-repeat: no-repeat;
-  background-position: -60px -24px;
-  background-size: cover;
+    display: flex;
+    /* height: 568px; */
+    background: #171c3c url(../images/game_767.jpg) no-repeat 0 0 / 0 0;
+    background-repeat: no-repeat;
+    background-position: -135px -5px;
+    background-size: 143% 102%;
 }
 
 .footer-container {
@@ -544,13 +544,14 @@ body {
 }
 
 .footer-top {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 21% 0 16% 0;
 }
 
-.footer-logo-container {
+.box-logo-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -562,25 +563,26 @@ body {
   border-radius: 15px;
 }
 
-.footer-logo {
-  height: 40px;
-  width: 135px;
-  fill: #ffffff;
+.box-logo {
+    height: 15vw;
+    width: 17vw;
+    fill: #ffffff;
 }
 
 .footer-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 6.25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 9% 0.25% 0 0%;
 }
 
 .footer-title__item {
-  font-family: "Open Sans";
-  font-weight: bold;
-  font-size: 32px;
-  color: #ffffff;
-  text-transform: uppercase;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 10.1vw;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    text-transform: uppercase;
 }
 
 .footer-title__item:nth-child(2) {
@@ -589,6 +591,20 @@ body {
   font-size: 14px;
   color: #9b8ec1;
 }
+
+.footer-logo-container {
+    text-align: center;
+    margin: 21% 0 1.7% 0;
+}
+
+.footer-logo {
+  height: 11.25vw;
+  width: 41.25vw;
+  fill: #ffffff;
+}
+
+
+
 
 /*??? Предполагаю, что есть инструмент фильтрующий не используемые css-правила - может подскажете? */
 
