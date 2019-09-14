@@ -4,8 +4,7 @@
   font-family: "Open Sans";
   src: url("../fonts/OpenSans-Regular.woff2") format("woff2"),
   url("../fonts/OpenSans-Regular.woff") format("woff"),
-  url("../fonts/OpenSans-Regular.ttf") format("opentype")
-  ;
+  url("../fonts/OpenSans-Regular.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -19,8 +18,7 @@
   font-family: "Open Sans";
   src: url("../fonts/OpenSans-Bold.woff2") format("woff2"),
   url("../fonts/OpenSans-Bold.woff") format("woff"),
-  url("../fonts/OpenSans-Bold.ttf") format("opentype")
-  ;
+  url("../fonts/OpenSans-Bold.ttf") format("opentype");
   font-weight: bold;
   font-style: normal;
 }
@@ -149,66 +147,63 @@ body {
 }
 
 .athlets-header {
-    font-family: "Open Sans";
-    font-size: 15.6vw;
-    font-weight: 700;
-    color: #e7e7e7;
-    text-transform: uppercase;
-    /* padding-left: 20px; */
-    padding: 2% 6.5% 72%;
-    /* margin-top: 0.5em; */
-    /* margin-bottom: 4.5em; */
-    margin: 0;
+  font-family: "Open Sans";
+  font-size: 15.6vw;
+  font-weight: 700;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  padding: 2% 6.5% 72%;
+  margin: 0;
 }
 
 .athlets-picture {
-    position: absolute;
-    width: 60%;
-    top: 8%;
-    left: calc(52% - 96px);
+  position: absolute;
+  width: 60%;
+  top: 8%;
+  left: calc(52% - 96px);
 }
 
 .athlets-point {
-    padding: 9.5% 6% 16.5%;
+  padding: 9.5% 6% 16.5%;
 }
 
 .athlets-point_connection {
-    padding: 16.5% 6% 16%;
+  padding: 16.5% 6% 16%;
 }
 
 .athlets-point__title {
-    position: relative;
-    font-family: "Open Sans";
-    font-size: 7.2vw;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #c1c1c1;
-    margin: 8.5% 9% 19px;
+  position: relative;
+  font-family: "Open Sans";
+  font-size: 7.2vw;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #c1c1c1;
+  margin: 8.5% 9% 19px;
 }
 
 .athlets-point__title_connection::before {
-    content: "01";
-    width: 5vw;
-    height: 6vw;
-    position: absolute;
-    top: 8%;
-    left: -11%;
-    font-family: "Open Sans";
-    font-weight: 700;
-    font-size: 4.5vw;
-    color: #000000;
-    border-bottom: 4px solid #5e42b0;
+  content: "01";
+  width: 5vw;
+  height: 6vw;
+  position: absolute;
+  top: 8%;
+  left: -11%;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 4.5vw;
+  color: #000000;
+  border-bottom: 4px solid #5e42b0;
 }
 
 .athlets-point__text {
-    font-family: "Open Sans";
-    font-size: 4.68vw;
-    font-weight: 400;
-    letter-spacing: 0.8px;
-    line-height: 1.2em;
-    color: #000000;
-    margin: 0;
+  font-family: "Open Sans";
+  font-size: 4.68vw;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  line-height: 1.2em;
+  color: #000000;
+  margin: 0;
 }
 
 .athlets-point__text_white {
@@ -255,131 +250,29 @@ body {
   background-color: #5e42b0;
 }
 
-/*  ******  */
-
-/* .players-wrapper {
-  position: relative;
-}
-
-.players-header {
-  font-family: Open Sans;
-  font-size: 50px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #e7e7e7;
-  padding-left: 20px;
-  margin-top: 0.5em;
-  margin-bottom: 4.5em;
-}
-
-.players-picture {
-  position: absolute;
-  top: 75px;
-  left: 0;
-}
-
-.players-point {
-  padding: 60px 20px 55px;
-}
-
-.players-point__title {
-  position: relative;
-  font-family: Open Sans;
-  font-size: 23px;
-  font-weight: 700;
-  color: #c1c1c1;
-  text-transform: uppercase;
-  margin-left: 25px;
-}
-
-.players-point__title_connection::before {
-  content: "01";
-  width: 15px;
-  height: 20px;
-  position: absolute;
-  top: 3px;
-  left: -25px;
-  font-family: Open Sans;
-  font-weight: 700;
-  font-size: 14px;
-  color: #000000;
-  border-bottom: 4px solid #5e42b0;
-}
-
-.players-point__text {
-  font-family: Open Sans;
-  font-size: 15px;
-  font-weight: 400;
-  color: #000000;
-}
-
-.players-point__text_white {
-  color: #ffffff;
-}
-
-.players-point__title_collaboration::before {
-  content: "02";
-  width: 15px;
-  height: 20px;
-  position: absolute;
-  top: 3px;
-  left: -25px;
-  font-family: Open Sans;
-  font-weight: 700;
-  font-size: 14px;
-  color: #000000;
-  border-bottom: 4px solid #5e42b0;
-}
-
-.players-point__title_growth::before {
-  content: "03";
-  width: 15px;
-  height: 20px;
-  position: absolute;
-  top: 3px;
-  left: -25px;
-  font-family: Open Sans;
-  font-weight: 700;
-  font-size: 14px;
-  color: #8765dd;
-  border-bottom: 4px solid #ffffff;
-}
-
-.players-container:nth-of-type(1) {
-  background-color: #fafafa;
-}
-
-.players-container:nth-of-type(2) {
-  background-color: #f5f4f9;
-}
-
-.players-container:nth-of-type(3) {
-  background-color: #090c35;
-} */
-
 /* корректирующие модификаторы для блока-клона players:  */
 
 .athlets-header_players {
-    padding: 1% 4.5% 72.5%;
+  padding: 1% 4.5% 72.5%;
 }
 
 .athlets-picture_players {
-    position: absolute;
-    width: 94%;
-    top: 8.6%;
-    left: calc(50% - 47%);
+  position: absolute;
+  width: 94%;
+  top: 8.6%;
+  left: calc(50% - 47%);
 }
 
 .athlets-point_connection_players {
-    padding: 16% 6% 17.5%;
+  padding: 16% 6% 17.5%;
 }
 
 .athlets-point_collaboration_players {
-    padding: 9% 6% 16.5%;
+  padding: 9% 6% 16.5%;
 }
 
 .athlets-point_growth_players {
-    padding: 8% 6% 17%;
+  padding: 8% 6% 17%;
 }
 
 .athlets-container.athlets-container_growth_players {
@@ -387,31 +280,31 @@ body {
 }
 
 .athlets-point__title_connection_players::before {
-    content: "01";
-    width: 4.5vw;
-    height: 6.0vw;
-    position: absolute;
-    top: 1vw;
-    left: -7.5vw;
-    font-family: "Open Sans";
-    font-weight: 700;
-    font-size: 4.3vw;
-    color: #000000;
-    border-bottom: 4px solid #5e42b0;
+  content: "01";
+  width: 4.5vw;
+  height: 6.0vw;
+  position: absolute;
+  top: 1vw;
+  left: -7.5vw;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 4.3vw;
+  color: #000000;
+  border-bottom: 4px solid #5e42b0;
 }
 
 .athlets-point__title_collaboration_players::before {
-    content: "02";
-    width: 4.8vw;
-    height: 5.5vw;
-    position: absolute;
-    top: 1vw;
-    left: -7.5vw;
-    font-family: "Open Sans";
-    font-weight: 700;
-    font-size: 4.3vw;
-    color: #000000;
-    border-bottom: 4px solid #5e42b0;
+  content: "02";
+  width: 4.8vw;
+  height: 5.5vw;
+  position: absolute;
+  top: 1vw;
+  left: -7.5vw;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 4.3vw;
+  color: #000000;
+  border-bottom: 4px solid #5e42b0;
 }
 
 .athlets-point__title_growth_players::before {
@@ -428,21 +321,20 @@ body {
   border-bottom: 4px solid #ffffff;
 }
 
-
 /* section.features : */
 
 .feature {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding: 0 0 18.8%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 18.8%;
 }
 
 .feature_card_work {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding: 0 0 15.8% 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 15.8% 0;
 }
 
 /*??? Ниже контейнеру пришлось сделать display:flex , т к без флекса контейнер почемуто больше вложенного элемента img. Нормально решать такую проблему флексом? Почему возникает такая проблема? (приложенный файл: Вопрос1_feature__picture-container.jpg) */
@@ -454,108 +346,99 @@ body {
 }
 
 .feature__number-box {
-    position: absolute;
-    top: -37.9%;
-    left: 6.2%;
-    height: 22vw;
-        width: 22vw;
-    background-color: #5e42b0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  top: -37.9%;
+  left: 6.2%;
+  height: 22vw;
+  width: 22vw;
+  background-color: #5e42b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .feature__number-box_card_find {
-    position: absolute;
-    top: -42.9%;
-    left: 6.2%;
-    height: 22vw;
-        width: 22vw;
-    background-color: #5e42b0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  top: -42.9%;
+  left: 6.2%;
+  height: 22vw;
+  width: 22vw;
+  background-color: #5e42b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .feature__number-box_card_work {
-    position: absolute;
-    top: -33.9%;
-    left: 6.2%;
-    height: 22vw;
-        width: 22vw;
-    background-color: #5e42b0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  top: -33.9%;
+  left: 6.2%;
+  height: 22vw;
+  width: 22vw;
+  background-color: #5e42b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .feature__number {
-    width: 21%;
-    height: 29%;
-    font-family: "Open Sans";
-    font-weight: 700;
-    font-size: 4.2vw;
-    color: #ffffff;
-    border-bottom: 0.3em solid #8f7bc8;
+  width: 21%;
+  height: 29%;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 4.2vw;
+  color: #ffffff;
+  border-bottom: 0.3em solid #8f7bc8;
 }
 
 .feature__description {
   position: relative;
-    padding: 0 22% 0 6%;
+  padding: 0 22% 0 6%;
 }
 
-
-/* .feature__description_card_be {
-    padding: 0 6% 0 6%;
-} */
-
 .feature__description_card_find {
-    padding: 0 5% 0 6%;
+  padding: 0 5% 0 6%;
 }
 
 .feature__description_card_work {
-    padding: 0 5% 0 6%;
+  padding: 0 5% 0 6%;
 }
 
 .feature__title {
-    font-family: "Open Sans";
-    font-weight: 700;
-    font-size: 9vw;
-    color: #e7e7e7;
-    text-transform: uppercase;
-    margin: 11% 0 -2% 0%;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 9vw;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  margin: 11% 0 -2% 0%;
 }
 
 .feature__title_card_work {
-    font-family: "Open Sans";
-    font-weight: 700;
-    font-size: 9vw;
-    color: #e7e7e7;
-    text-transform: uppercase;
-    margin: 9.5% 0 -2% 0%;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 9vw;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  margin: 9.5% 0 -2% 0%;
 }
-
-
 
 .feature__text {
-    font-family: "Open Sans";
-    font-weight: 400;
-    font-size: 4.7vw;
-    letter-spacing: 0.09em;
-    line-height: 1.39em;
-    color: #000000;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 4.7vw;
+  letter-spacing: 0.09em;
+  line-height: 1.39em;
+  color: #000000;
 }
 
-/*  ********** */
 /* footer: */
 
 .footer-wrapper {
-    display: flex;
-    /* height: 568px; */
-    background: #171c3c url(../images/game_767.jpg) no-repeat 0 0 / 0 0;
-    background-repeat: no-repeat;
-    background-position: -135px -5px;
-    background-size: 143% 102%;
+  display: flex;
+  background: #171c3c url(../images/game_767.jpg) no-repeat 0 0 / 0 0;
+  background-repeat: no-repeat;
+  background-position: -135px -5px;
+  background-size: 143% 102%;
 }
 
 .footer-container {
@@ -565,11 +448,11 @@ body {
 }
 
 .footer-top {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 21% 0 16% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 21% 0 16% 0;
 }
 
 .box-logo-container {
@@ -585,37 +468,37 @@ body {
 }
 
 .box-logo {
-    height: 15vw;
-    width: 17vw;
-    fill: #ffffff;
+  height: 15vw;
+  width: 17vw;
+  fill: #ffffff;
 }
 
 .footer-title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 9% 0.25% 0 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 9% 0.25% 0 0%;
 }
 
 .footer-title__item {
-    font-family: "Open Sans";
-    font-weight: bold;
-    font-size: 10.1vw;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    text-transform: uppercase;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 10.1vw;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .footer-title__item:nth-child(2) {
-    font-family: "Open Sans";
-    font-weight: 400;
-    font-size: 4.45vw;
-    color: #9b8ec1;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 4.45vw;
+  color: #9b8ec1;
 }
 
 .footer-logo-container {
-    text-align: center;
-    margin: 21% 0 1.7% 0;
+  text-align: center;
+  margin: 21% 0 1.7% 0;
 }
 
 .footer-logo {
@@ -623,9 +506,6 @@ body {
   width: 41.25vw;
   fill: #ffffff;
 }
-
-
-
 
 /*??? Предполагаю, что есть инструмент фильтрующий не используемые css-правила - может подскажете? */
 
@@ -713,30 +593,26 @@ body {
   /*@media for athlets to 960px  */
 
   .athlets-header {
-      font-family: "Open Sans";
-      font-size: 10vw;
-      font-weight: 700;
-      letter-spacing: 2px;
-      color: #e7e7e7;
-      /* padding-left: 20px; */
+    font-family: "Open Sans";
+    font-size: 10vw;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #e7e7e7;
     padding: 7.9% 6.5% 0 38%;
-      /* margin-top: 0.5em; */
-      /* margin-bottom: 4.5em; */
-      margin: 0;
+    margin: 0;
   }
 
   .athlets-picture {
-      width: 64.5%;
-      top: 12.6%;
-      left: -21%;
+    width: 64.5%;
+    top: 12.6%;
+    left: -21%;
   }
 
   .athlets-point {
-      padding: 4% 5% 4.5% 38%;
+    padding: 4% 5% 4.5% 38%;
   }
 
   .athlets-point_connection {
-      /* padding: 16.5% 6% 16%; */
   }
 
   .athlets-point_growth {
@@ -793,68 +669,72 @@ body {
     letter-spacing: 1.5px;
     color: #c1c1c1;
     margin: 0.0% 9% 3.5% 7%;
-    /* margin: 0; */
   }
 
   .athlets-point__text {
-      font-family: "Open Sans";
-      font-size: 2.1vw;
-      font-weight: 400;
-      letter-spacing: 0.8px;
-      line-height: 1.7em;
-      /* color: #000000; */
-      margin: 0;
+    font-family: "Open Sans";
+    font-size: 2.1vw;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 1.7em;
+    margin: 0;
   }
-
 
   /*@media for players to 960  */
 
 /*??? Дайте критику по данному подходу: я взял стили блока athlets и применил из к блоку players, т к они почти идентичны. Далее я добавил классы-модификаторы с припиской _players к получившемуся блоку,чтобы скорректировать его отличия. Далее я эти модификаторы меняю по ходу создания адаптивной верстки для блока players.   */
 
   .athlets-header_players {
-      padding: 7.7% 3.5% 0% 3.5%;
+    padding: 7.7% 3.5% 0% 3.5%;
   }
+
   .athlets-picture_players {
-      position: absolute;
-      width: 57%;
-      top: 5.3%;
-      left: 43%;
+    position: absolute;
+    width: 57%;
+    top: 5.3%;
+    left: 43%;
   }
+
   .athlets-container:nth-of-type(1) {
     background-color: #ffffff;
   }
+
   .athlets-point_connection_players {
-      padding: 4% 44% 4.7% 4%;
+    padding: 4% 44% 4.7% 4%;
   }
+
   .athlets-point_collaboration_players {
     padding: 4.5% 44% 4.5% 4.0%;
   }
+
   .athlets-point_growth_players {
-      padding: 4.2% 40% 4.6% 4%;
+    padding: 4.2% 40% 4.6% 4%;
   }
+
   .athlets-point__title_connection_players {
-      position: relative;
-      font-family: "Open Sans";
-      font-size: 4.2vw;
-      font-weight: 700;
-      letter-spacing: 1.5px;
-      color: #c1c1c1;
-      margin: 0.0% 9% 3.5% 8%;
-      /* margin: 0; */
+    position: relative;
+    font-family: "Open Sans";
+    font-size: 4.2vw;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #c1c1c1;
+    margin: 0.0% 9% 3.5% 8%;
   }
+
   .athlets-point__title_connection_players::before {
-      content: "01";
-      width: 2.5vw;
-      height: 3.5vw;
-      position: absolute;
-      top: 0.3vw;
-      left: -4vw;
-      font-family: "Open Sans";
-      font-weight: 700;
-      font-size: 2.4vw;
-      color: #000000;
-      border-bottom: 4px solid #5e42b0;
+    content: "01";
+    width: 2.5vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 0.3vw;
+    left: -4vw;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 2.4vw;
+    color: #000000;
+    border-bottom: 4px solid #5e42b0;
   }
+
   .athlets-point__title_collaboration_players {
     position: relative;
     font-family: "Open Sans";
@@ -863,156 +743,163 @@ body {
     letter-spacing: 1.5px;
     color: #c1c1c1;
     margin: 0.0% 9% 3.5% 8%;
-    /* margin: 0; */
   }
+
   .athlets-point__title_collaboration_players::before {
-      content: "02";
-      width: 2.5vw;
-      height: 3.5vw;
-      position: absolute;
-      top: 0.3vw;
-      left: -4vw;
-      font-family: "Open Sans";
-      font-weight: 700;
-      font-size: 2.4vw;
-      color: #000000;
-      border-bottom: 4px solid #5e42b0;
+    content: "02";
+    width: 2.5vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 0.3vw;
+    left: -4vw;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 2.4vw;
+    color: #000000;
+    border-bottom: 4px solid #5e42b0;
   }
 
   .athlets-point__title_growth_players {
-      position: relative;
-      font-family: "Open Sans";
-      font-size: 4.2vw;
-      font-weight: 700;
-      letter-spacing: 1.5px;
-      color: #c1c1c1;
-      margin: 0.0% 9% 3.5% 7.7%;
-      /* margin: 0; */
+    position: relative;
+    font-family: "Open Sans";
+    font-size: 4.2vw;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #c1c1c1;
+    margin: 0.0% 9% 3.5% 7.7%;
   }
 
   .athlets-point__title_growth_players::before {
-      content: "03";
-      width: 2.6vw;
-      height: 3.5vw;
-      position: absolute;
-      top: 0.4vw;
-      left: -4.3vw;
-      font-family: "Open Sans";
-      font-weight: 700;
-      font-size: 2.4vw;
-      color: #8765dd;
-      border-bottom: 4px solid #ffffff;
+    content: "03";
+    width: 2.6vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 0.4vw;
+    left: -4.3vw;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 2.4vw;
+    color: #8765dd;
+    border-bottom: 4px solid #ffffff;
   }
 
   /*@media for features to 960px   */
 
   .feature {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      padding: 0 0 12.6%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 12.6%;
   }
+
   .feature_card_find {
     padding: 0 0 13.5%;
   }
+
   .feature_card_work {
     padding: 0 0 14.2%;
   }
+
   .feature__number-box {
-      position: absolute;
-      top: -32.9%;
-      left: 4.2%;
-      height: 15.2vw;
-      width: 15.2vw;
-      background-color: #5e42b0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    position: absolute;
+    top: -32.9%;
+    left: 4.2%;
+    height: 15.2vw;
+    width: 15.2vw;
+    background-color: #5e42b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
   .feature__number-box_card_find {
     top: -39.9%;
   }
+
   .feature__number-box_card_work {
     top: -34.5%;
   }
 
   .feature__number {
-      width: 21%;
-      height: 29%;
-      font-family: "Open Sans";
-      font-weight: 700;
-      font-size: 3.0vw;
-      color: #ffffff;
-      border-bottom: 0.3em solid #8f7bc8;
+    width: 21%;
+    height: 29%;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 3.0vw;
+    color: #ffffff;
+    border-bottom: 0.3em solid #8f7bc8;
   }
 
   .feature__title {
-      font-family: "Open Sans";
-      font-weight: 700;
-      font-size: 10.2vw;
-      color: #e7e7e7;
-      text-transform: uppercase;
-      margin: 10% 0 -2% 0%;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 10.2vw;
+    color: #e7e7e7;
+    text-transform: uppercase;
+    margin: 10% 0 -2% 0%;
   }
+
   .feature__title_card_find {
-      font-family: "Open Sans";
-      font-weight: 700;
-      font-size: 10.5vw;
-      color: #e7e7e7;
-      text-transform: uppercase;
-      margin: 8% 0 -2% -1%;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 10.5vw;
+    color: #e7e7e7;
+    text-transform: uppercase;
+    margin: 8% 0 -2% -1%;
   }
+
   .feature__title_card_work {
     margin: 8% 0% -2% 0.2%;
   }
+
   .feature__description {
-      position: relative;
-      padding: 0 8% 0 4%;
+    position: relative;
+    padding: 0 8% 0 4%;
   }
+
   .feature__text {
-      font-family: "Open Sans";
-      font-weight: 400;
-      font-size: 3.0vw;
-      letter-spacing: 0.077em;
-      line-height: 1.3em;
-      color: #000000;
-      margin: 3.0% 0 0 0;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 3.0vw;
+    letter-spacing: 0.077em;
+    line-height: 1.3em;
+    color: #000000;
+    margin: 3.0% 0 0 0;
   }
   .feature__text_card_work {
-        margin: 3.5% 0 0 0.5%;
+    margin: 3.5% 0 0 0.5%;
   }
 
   /*@media for footer to 960px  */
 
   .footer-wrapper {
-      display: flex;
-      /* height: 568px; */
-      background: #171c3c url(../images/game_1280.jpg) no-repeat 0 0 / 0 0;
-      background-repeat: no-repeat;
-      background-position: 50% 37%;
-      background-size: auto;
+    display: flex;
+    background: #171c3c url(../images/game_1280.jpg) no-repeat 0 0 / 0 0;
+    background-repeat: no-repeat;
+    background-position: 50% 37%;
+    background-size: auto;
   }
 
   .footer-top {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin: 12.2% 0 34% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 12.2% 0 34% 0;
   }
 
   .box-logo-container {
-      width: 17vw;
-      height: 18vw;
-      border-radius: 28px;
+    width: 17vw;
+    height: 18vw;
+    border-radius: 28px;
   }
   .box-logo {
-      height: 11vw;
-      width: 14vw;
+    height: 11vw;
+    width: 14vw;
   }
 
   .footer-title {
-      padding: 4.5% 0.25% 0 0%;
+    padding: 4.5% 0.25% 0 0%;
   }
 
   .footer-title__item {
@@ -1026,12 +913,12 @@ body {
   }
 
   .footer-logo-container {
-      margin: 2% 0 2.2% 0;
+    margin: 2% 0 2.2% 0;
   }
 
   .footer-logo {
-      height: 8.25vw;
-      width: 27.25vw;
+    height: 8.25vw;
+    width: 27.25vw;
   }
 
 }
@@ -1051,22 +938,18 @@ body {
 
 @media (min-width: 961px) {
 
-/*!!!:  */
-/* testing  */
   body {
     /* width: 1920px; */
   }
-  /* testing  */
 
   .header-wrapper {
-      max-width: 1920px;
-      /* margin-left: auto; */
-      /* margin-right: auto; */
-      box-sizing: border-box;
-
-      background-image: url(../images/football_1920.jpg);
-      background-position: 0px 0px;
-      background-size: 100% auto;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    background-image: url(../images/football_1920.jpg);
+    background-position: 0px 0px;
+    background-size: 100% auto;
   }
 
   .header-container {
@@ -1075,8 +958,8 @@ body {
   }
 
   .header-container {
-      background-color: rgba(25, 29, 62, 0.88);
-      padding-bottom: 1.4%;
+    background-color: rgba(25, 29, 62, 0.88);
+    padding-bottom: 1.4%;
   }
 
   .logo-container {
@@ -1085,20 +968,19 @@ body {
   }
 
   .logo {
-      height: 3vw;
-      width: 10vw;
-      /* margin-left: 19px; */
-      margin-top: 0.2%;
+    height: 3vw;
+    width: 10vw;
+    margin-top: 0.2%;
   }
 
   .title {
-      padding: 14% 10% 11% 9.5%;
+    padding: 14% 10% 11% 9.5%;
   }
 
   .title__item {
-      font-size: 4.7vw;
-      line-height: 104%;
-      letter-spacing: 4.5px;
+    font-size: 4.7vw;
+    line-height: 104%;
+    letter-spacing: 4.5px;
   }
 
   .title__item:nth-child(2) {
@@ -1113,10 +995,10 @@ body {
   }
 
   .downloads-button {
-      width: 16vw;
-      height: 4vw;
-      border-radius: 40px;
-      margin-right: 4%;
+    width: 16vw;
+    height: 4vw;
+    border-radius: 40px;
+    margin-right: 4%;
   }
 
   .downloads-button:nth-child(2) {
@@ -1129,8 +1011,8 @@ body {
   }
 
   .downloads-button__apple {
-      height: 2.6vw;
-      padding: 0 9% 2% 0%;
+    height: 2.6vw;
+    padding: 0 9% 2% 0%;
   }
 
   .downloads-button__google {
@@ -1149,27 +1031,24 @@ body {
 
   .athlets-wrapper {
     max-width: 1920px;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .athlets-header {
-      font-family: "Open Sans";
-      font-size: 4vw;
-      font-weight: 700;
-      letter-spacing: 2px;
-      color: #e7e7e7;
-      /* padding-left: 20px; */
-      padding: 4.7% 6.5% 34px 52.5%;
-      /* margin-top: 0.5em; */
-      /* margin-bottom: 4.5em; */
-      margin: 0;
+    font-family: "Open Sans";
+    font-size: 4vw;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #e7e7e7;
+    padding: 4.7% 6.5% 34px 52.5%;
+    margin: 0;
   }
 
   .athlets-picture {
-      width: 29.5%;
-      top: 3.3%;
-      left: 20.4%;
+    width: 29.5%;
+    top: 3.3%;
+    left: 20.4%;
   }
 
   .athlets-point {
@@ -1177,11 +1056,11 @@ body {
   }
 
   .athlets-point_connection {
-      padding: 2.1% 12% 2.8% 52.5%;
+    padding: 2.1% 12% 2.8% 52.5%;
   }
 
   .athlets-point_collaboration {
-      padding: 2.5% 12% 2.9% 52.5%;
+    padding: 2.5% 12% 2.9% 52.5%;
   }
 
   .athlets-point_growth {
@@ -1189,17 +1068,17 @@ body {
   }
 
   .athlets-point__title_connection::before {
-      content: "01";
-      width: 1vw;
-      height: 1.45vw;
-      position: absolute;
-      top: 11%;
-      left: -4.5%;
-      font-family: "Open Sans";
-      font-weight: 700;
-      font-size: 1vw;
-      color: #000000;
-      border-bottom: 0.2em solid #5e42b0;
+    content: "01";
+    width: 1vw;
+    height: 1.45vw;
+    position: absolute;
+    top: 11%;
+    left: -4.5%;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 1vw;
+    color: #000000;
+    border-bottom: 0.2em solid #5e42b0;
   }
 
   .athlets-point__title_collaboration::before {
@@ -1231,14 +1110,13 @@ body {
   }
 
   .athlets-point__title {
-      position: relative;
-      font-family: "Open Sans";
-      font-size: 2vw;
-      font-weight: 700;
-      letter-spacing: 0;
-      color: #c1c1c1;
-      margin: 0.0% 9% 2% 4%;
-      /* margin: 0; */
+    position: relative;
+    font-family: "Open Sans";
+    font-size: 2vw;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #c1c1c1;
+    margin: 0.0% 9% 2% 4%;
   }
 
   .athlets-point__text {
@@ -1247,12 +1125,10 @@ body {
     font-weight: 400;
     letter-spacing: 0.027em;
     line-height: 1.45em;
-    /* color: #000000; */
     margin: 0;
   }
 
   .athlets-point__text_white {
-    /* color: #ffffff; */
     letter-spacing: 0.04em;
   }
 
@@ -1260,196 +1136,217 @@ body {
 
   /*@media for players from 961  */
 
-
-
   .athlets-header_players {
-      padding: 4.8% 3.5% 0% 9.6%;
+    padding: 4.8% 3.5% 0% 9.6%;
   }
+
   .athlets-picture_players {
-      position: absolute;
-      width: 51.5%;
-      top: 2.9%;
-      left: 41.9%;
+    position: absolute;
+    width: 51.5%;
+    top: 2.9%;
+    left: 41.9%;
   }
+
   .athlets-container:nth-of-type(1) {
     background-color: #ffffff;
   }
+
   .athlets-point_connection_players {
-      padding: 3.3% 50% 2.8% 10%;
+    padding: 3.3% 50% 2.8% 10%;
   }
   .athlets-point_collaboration_players {
-      padding: 1.8% 50% 4.3% 10%;
+    padding: 1.8% 50% 4.3% 10%;
   }
+
   .athlets-point_growth_players {
-      padding: 1.8% 50% 2.9% 10%;
+    padding: 1.8% 50% 2.9% 10%;
   }
+
   .athlets-point__title_connection_players {
-      position: relative;
-      font-family: "Open Sans";
-      font-size: 2.0vw;
-      font-weight: 700;
-      letter-spacing: 0px;
-      color: #c1c1c1;
-      margin: 1.5% 9% 2.0% 3.6%;
-      /* margin: 0; */
+    position: relative;
+    font-family: "Open Sans";
+    font-size: 2.0vw;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #c1c1c1;
+    margin: 1.5% 9% 2.0% 3.6%;
   }
+
   .athlets-point__title_connection_players::before {
-      content: "01";
-      width: 1vw;
-      height: 1.5vw;
-      position: absolute;
-      top: 0.3vw;
-      left: -1.5vw;
-      font-family: "Open Sans";
-      font-weight: 700;
-      font-size: 1.0vw;
-      color: #000000;
-      border-bottom: 4px solid #5e42b0;
+    content: "01";
+    width: 1vw;
+    height: 1.5vw;
+    position: absolute;
+    top: 0.3vw;
+    left: -1.5vw;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 1.0vw;
+    color: #000000;
+    border-bottom: 4px solid #5e42b0;
   }
+
   .athlets-point__title_collaboration_players {
-      position: relative;
-      font-family: "Open Sans";
-      font-size: 2.0vw;
-      font-weight: 700;
-      letter-spacing: 0px;
-      color: #c1c1c1;
-      margin: 1.5% 9% 3.2% 4%;
-      /* margin: 0; */
+    position: relative;
+    font-family: "Open Sans";
+    font-size: 2.0vw;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #c1c1c1;
+    margin: 1.5% 9% 3.2% 4%;
   }
+
   .athlets-point__title_collaboration_players::before {
-      content: "02";
-      width: 1vw;
-      height: 1.5vw;
-      position: absolute;
-      top: 0.4vw;
-      left: -1.5vw;
-      font-family: "Open Sans";
-      font-weight: 700;
-      font-size: 1.0vw;
-      color: #000000;
-      border-bottom: 4px solid #5e42b0;
+    content: "02";
+    width: 1vw;
+    height: 1.5vw;
+    position: absolute;
+    top: 0.4vw;
+    left: -1.5vw;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 1.0vw;
+    color: #000000;
+    border-bottom: 4px solid #5e42b0;
   }
 
   .athlets-point__title_growth_players {
-      position: relative;
-      font-family: "Open Sans";
-      font-size: 2.0vw;
-      font-weight: 700;
-      letter-spacing: 0px;
-      color: #c1c1c1;
-      margin: 1.5% 9% 2.1% 4%;
-      /* margin: 0; */
+    position: relative;
+    font-family: "Open Sans";
+    font-size: 2.0vw;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #c1c1c1;
+    margin: 1.5% 9% 2.1% 4%;
   }
 
   .athlets-point__title_growth_players::before {
-      content: "03";
-      width: 1vw;
-      height: 1.5vw;
-      position: absolute;
-      top: 0.4vw;
-      left: -1.5vw;
-      font-family: "Open Sans";
-      font-weight: 700;
-      font-size: 1.0vw;
-      color: #8765dd;
-      border-bottom: 4px solid #ffffff;
+    content: "03";
+    width: 1vw;
+    height: 1.5vw;
+    position: absolute;
+    top: 0.4vw;
+    left: -1.5vw;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 1.0vw;
+    color: #8765dd;
+    border-bottom: 4px solid #ffffff;
   }
-
 
   /*@media for features from 961  */
 
   .features-wrapper {
     max-width: 1920px;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .feature_card_be {
-      flex-direction: row;
-      padding: 0 0 0 0;
+    flex-direction: row;
+    padding: 0 0 0 0;
   }
+
   .feature_card_find {
     flex-direction: row-reverse;
     padding: 0;
   }
+
   .feature_card_work {
     flex-direction: row;
     padding: 0 0 0 0;
   }
+
   .feature__picture-container {
-      position: relative;
-      overflow: hidden;
-      width: 50%;
-      height: 38vw;
-      box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    height: 38vw;
+    box-sizing: border-box;
   }
+
   .feature__picture {
     transform: scale(1.00);
     top: 0%;
     left: -0.0%;
   }
   /*??? Картинка первой карточки этого блока нуждается в подгонке, чтобы выглядеть как на макете. Мне нужно было ее вырезать? Адекватно ли использовать подход ниже? :  */
+
   .feature__picture_card_be {
-      position: absolute;
-      transform: scale(1.31);
-      top: 12%;
-      left: -8.5%;
+    position: absolute;
+    transform: scale(1.31);
+    top: 12%;
+    left: -8.5%;
   }
+
   .feature__description {
-      box-sizing: border-box;
-      width: 50%;
-      padding: 0 11% 0 6.5%;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 11% 0 6.5%;
   }
+
   .feature__description_card_be {
     padding: 0 5% 0 10%;
   }
+
   .feature__description_card_find {
     padding: 0 5% 0 10.0%;
   }
+
   .feature__description_card_work {
     padding: 0 9% 0 6.5%;
   }
+
   .feature__number-box {
-      top: 28.6%;
-      left: -8.7%;
-      height: 8vw;
-      width: 8.7vw;
+    top: 28.6%;
+    left: -8.7%;
+    height: 8vw;
+    width: 8.7vw;
   }
+
   .feature__number-box_card_find {
-      top: 29.2%;
-      left: 91.3%;
-      height: 8vw;
-      width: 8.7vw;
+    top: 29.2%;
+    left: 91.3%;
+    height: 8vw;
+    width: 8.7vw;
   }
+
   .feature__number {
     width: 14%;
     height: 22%;
     font-size: 1.2vw;
   }
+
   /*???
   При верстке макета surface_desktop выявилось искаженное изображение при расширении 970*580 - карточки в блоке section.features разъезжаются. Если это не было в ТЗ,стоит ли этому уделять внимание? (приложенный файл: Вопрос3_feature__title-разрывпри970шир.jpg)
     */
+
   .feature__title {
-      font-size: 80px;
-      line-height: 60px;
-      margin: 41.5% 0 0 0%;
+    font-size: 80px;
+    line-height: 60px;
+    margin: 41.5% 0 0 0%;
   }
+
   .feature__title_card_find {
     margin: 38.5% 0 0 -1%;
   }
+
   .feature__title_card_work {
     margin: 38.5% 0 0 0%;
   }
+
   .feature__text {
-      font-size: 24px;
-      line-height: 28px;
-      letter-spacing: 0.056em;
-      margin: 18% 0 0 0;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.056em;
+    margin: 18% 0 0 0;
   }
+
   .feature__text_card_find {
-      letter-spacing: 0.05em;
-      margin: 11% 0 0 0;
+    letter-spacing: 0.05em;
+    margin: 11% 0 0 0;
   }
+
   .feature__text_card_work {
     margin: 16.5% 0 0 0;
   }
@@ -1458,51 +1355,48 @@ body {
   /*@media for footer from 961 */
 
   .footer-wrapper {
-      max-width: 1920px;
-      /* margin-left: auto; */
-      /* margin-right: auto; */
-      display: flex;
-      /* height: 568px; */
-      background: #171c3c url(../images/game_1920.jpg) no-repeat 0 0 / 0 0;
-      background-repeat: no-repeat;
-      background-position: 50% 37%;
-      background-size: auto;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background: #171c3c url(../images/game_1920.jpg) no-repeat 0 0 / 0 0;
+    background-repeat: no-repeat;
+    background-position: 50% 37%;
+    background-size: auto;
   }
 
   .footer-top {
-      /* display: flex; */
-      flex-direction: row;
-      justify-content: space-between;
-      /* align-items: center; */
-      padding: 0 27%;
-      margin: 10.6% 0 7.7% 0;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 27%;
+    margin: 10.6% 0 7.7% 0;
   }
 
   .box-logo-container {
-      width: 6.7vw;
-      height: 7.1vw;
-      border-radius: 28px;
-      margin: 1% 0 0 1%;
+    width: 6.7vw;
+    height: 7.1vw;
+    border-radius: 28px;
+    margin: 1% 0 0 1%;
   }
   .box-logo {
-      height: 11vw;
-      width: 5vw;
+    height: 11vw;
+    width: 5vw;
   }
 
   .footer-title {
-      align-items: flex-start;
-      padding: 0% 0.25% 0 2%;
+    align-items: flex-start;
+    padding: 0% 0.25% 0 2%;
   }
 
   .footer-title__item {
-      letter-spacing: 0.06em;
-      font-size: 4.1vw;
+    letter-spacing: 0.06em;
+    font-size: 4.1vw;
   }
 
   .footer-title__item:nth-child(2) {
-      font-size: 1.5vw;
-      line-height: 0.6em;
-      letter-spacing: 0.026em;
+    font-size: 1.5vw;
+    line-height: 0.6em;
+    letter-spacing: 0.026em;
   }
 
   .footer-logo-container {
@@ -1510,10 +1404,7 @@ body {
   }
 
   .footer-logo {
-      height: 3.25vw;
-      width: 10.25vw;
+    height: 3.25vw;
+    width: 10.25vw;
   }
-
-
-
 }
