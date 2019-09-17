@@ -939,7 +939,7 @@ body {
 @media (min-width: 961px) {
 
   body {
-    /* width: 1920px; */
+    width: 1920px;
   }
 
   .header-wrapper {
@@ -1266,17 +1266,12 @@ body {
   }
 
   .feature__picture {
-    transform: scale(1.00);
-    top: 0%;
-    left: -0.0%;
+    width: auto;
+    height: 100%;
   }
   /*??? Картинка первой карточки этого блока нуждается в подгонке, чтобы выглядеть как на макете. Мне нужно было ее вырезать? Адекватно ли использовать подход ниже? :  */
 
   .feature__picture_card_be {
-    position: absolute;
-    transform: scale(1.31);
-    top: 12%;
-    left: -8.5%;
   }
 
   .feature__description {
