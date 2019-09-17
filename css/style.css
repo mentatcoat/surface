@@ -1303,33 +1303,33 @@ body {
     */
 
   .feature__title {
-    font-size: 80px;
-    line-height: 60px;
-    margin: 41.5% 0 0 0%;
+      font-size: 80px;
+      line-height: 1.0em;
+      margin: 39.5% 0 0 0%;
   }
 
   .feature__title_card_find {
-    margin: 38.5% 0 0 -1%;
+      margin: 36.5% 0 0 -1%;
   }
 
   .feature__title_card_work {
-    margin: 38.5% 0 0 0%;
+      margin: 37.5% 0 0 0%;
   }
 
   .feature__text {
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 0.056em;
-    margin: 18% 0 0 0;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0.056em;
+      margin: 16% 0 0 0;
   }
 
   .feature__text_card_find {
-    letter-spacing: 0.05em;
-    margin: 11% 0 0 0;
+      letter-spacing: 0.05em;
+      margin: 9% 0 0 0;
   }
 
   .feature__text_card_work {
-    margin: 16.5% 0 0 0;
+      margin: 14.5% 0 0 0;
   }
 
 
