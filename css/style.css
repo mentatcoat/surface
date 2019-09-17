@@ -675,9 +675,9 @@ body {
 
 /*??? Дайте критику по данному подходу: я взял стили блока athlets и применил из к блоку players, т к они почти идентичны. Далее я добавил классы-модификаторы с припиской _players к получившемуся блоку,чтобы скорректировать его отличия. Далее я эти модификаторы меняю по ходу создания адаптивной верстки для блока players.   */
 
-  .athlets-header_players {
-    padding: 7.7% 3.5% 0% 3.5%;
-  }
+.athlets-header_players {
+    padding: 7.7% 33.5% 0% 3.5%;
+}
 
   .athlets-picture_players {
     position: absolute;
@@ -1123,7 +1123,7 @@ body {
   /*@media for players from 961  */
 
   .athlets-header_players {
-    padding: 4.8% 3.5% 0% 9.6%;
+      padding: 4.8% 58.5% 0% 9.6%;
   }
 
   .athlets-picture_players {
