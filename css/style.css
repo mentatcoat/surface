@@ -34,10 +34,7 @@ body {
 
 .header-wrapper {
   display: flex;
-  background-image: url(../images/football_767.jpg);
-  background-repeat: no-repeat;
-  background-position: -67px -24px;
-  background-size: 141% auto;
+  background: url(../images/football_767.jpg) no-repeat center/cover;
 }
 
 .header-container {
@@ -435,10 +432,7 @@ body {
 
 .footer-wrapper {
   display: flex;
-  background: #171c3c url(../images/game_767.jpg) no-repeat 0 0 / 0 0;
-  background-repeat: no-repeat;
-  background-position: -135px -5px;
-  background-size: 143% 102%;
+  background: #171c3c url(../images/game_767.jpg) no-repeat center/cover;
 }
 
 .footer-container {
@@ -523,10 +517,7 @@ body {
 @media (min-width: 641px) and (max-width: 960px) {
 
   .header-wrapper {
-    background-image: url(../images/football_1280.jpg);
-    background-repeat: no-repeat;
-    background-position: -249px -40px;
-    background-size: 165% auto;
+    background: url(../images/football_1280.jpg) no-repeat center/cover;
   }
 
   .header-container {
@@ -874,10 +865,7 @@ body {
 
   .footer-wrapper {
     display: flex;
-    background: #171c3c url(../images/game_1280.jpg) no-repeat 0 0 / 0 0;
-    background-repeat: no-repeat;
-    background-position: 50% 37%;
-    background-size: auto;
+    background: #171c3c url(../images/game_1280.jpg) no-repeat center/cover;
   }
 
   .footer-top {
@@ -947,9 +935,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
-    background-image: url(../images/football_1920.jpg);
-    background-position: 0px 0px;
-    background-size: 100% auto;
+    background: url(../images/football_1920.jpg) no-repeat center/cover ;
   }
 
   .header-container {
@@ -1353,11 +1339,7 @@ body {
     max-width: 1920px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    background: #171c3c url(../images/game_1920.jpg) no-repeat 0 0 / 0 0;
-    background-repeat: no-repeat;
-    background-position: 50% 37%;
-    background-size: auto;
+    background: #171c3c url(../images/game_1920.jpg) no-repeat center/cover;
   }
 
   .footer-top {
