@@ -999,20 +999,24 @@ body {
   }
 
   .downloads-button__apple {
-    height: 2.6vw;
-    padding: 0 9% 2% 0%;
+      height: 2.6vw;
+      /*ниже width задается для ie11  */
+      width: 3vw;
+      padding: 0 9% 2% 0%;
   }
 
   .downloads-button__google {
-    height: 2.25vw;
-    padding: 0 8% 0px 10%;
+      height: 2.25vw;
+      /*ниже width задается для ie11  */
+      width: 2.3vw;
+      padding: 0 8% 0px 10%;
   }
 
   .downloads-button__text {
-    width: auto;
-    font-size: 0.75vw;
-    letter-spacing: 0;
-    margin-right: 0;
+      width: 8vw;
+      font-size: 0.75vw;
+      letter-spacing: 0;
+      margin-right: 0;
   }
 
   /* @media for athlets from 961 : */
